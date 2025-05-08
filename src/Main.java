@@ -63,6 +63,7 @@ public class Main {
 
             } else if (choice == 0) {
                 System.out.println("Exiting program");
+                map.writeValue(new File("src/data.json"),tasks);
             } else {
                 System.out.println("Invalid choice try again");
             }
